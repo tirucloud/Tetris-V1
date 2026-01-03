@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "The AWS region to create things in."
-  default     = "ap-southeast-2"
+  default     = "ap-south-1"
 }
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
@@ -17,13 +17,13 @@ variable "ami_id" {
 variable "bucket_name" {
   description = "The name of the S3 bucket to create"
   type        = string
-  default     = "purplehaze777"
+  default     = "tiru-12348902"
 }
 
 variable "dynamodb_table" {
   description = "The name of the dynamodb table"
   type        = string
-  default     = "purplehaze777-dynamodb-table"
+  default     = "tiru-12348902-dynamodb-table"
 }
 
 variable "acl" {
